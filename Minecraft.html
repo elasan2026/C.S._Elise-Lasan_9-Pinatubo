@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Minecraft Memes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <h4><b>Meme Central</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#General.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">General</a> 
+    <a href="#Minecraft.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">Minecraft</a> 
+    <a href="#Spongebob.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Spongebob</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Meme Central</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-white">General</button>
+      <button class="w3-button w3-black">Minecraft</button>
+      <button class="w3-button w3-white w3-hide-small">Spongebob</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://assets-prd.ignimgs.com/2022/07/07/minecraft-cycle-1657226814355.jpg" alt="The Endless Minecraft Cycle" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Endless Minecraft Cycle</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://assets-prd.ignimgs.com/2022/07/07/creeper-panik-1657227112297.jpg" alt="Creeper Panik" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Creeper Panik</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://assets-prd.ignimgs.com/2022/07/07/stonks-1657227632995.jpg" alt="Villager Stonks" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Villager Stonks</b></p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://assets-prd.ignimgs.com/2022/07/07/loki-mining-1657228063384.jpg" alt="Mining Suffering" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>We Can Never Get What We Want, Can We?</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://assets-prd.ignimgs.com/2022/07/07/bow-decisions-1657228937425.jpg" alt="Bow Enchantments" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>You Must Choose One</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://assets-prd.ignimgs.com/2022/07/07/elytra-fail-1657229078661.jpg" alt="Elytra Fail" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Make Your Render Distance Higher</b></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#General.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="#Minecraft/html" class="w3-bar-item w3-black w3-button">2</a>
+      <a href="#Spongebob.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>References</h3>
+      <p><a href="https://www.reddit.com/r/memes/" target="_blank">General Meme Source</a></p>
+      <p><a href="https://sea.ign.com/minecraft/187589/feature/the-10-best-minecraft-memes" target="_blank">Minecraft Meme Source</a></p>
+      <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Spongebob Meme Source</a></p>
+      <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">General</span> <span class="w3-tag w3-black w3-margin-bottom">Minecraft</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Spongebob</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
